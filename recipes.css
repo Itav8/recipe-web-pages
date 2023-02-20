@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: aliceblue;
+}
+
+main {
+    padding: 16px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+main > h2 {
+    text-align: center;
+}
+
+footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+img {
+    height: 200px;
+}
+
+nav {
+    color: black;
+    border-bottom: 1px;
+    padding: 16px;
+}
+
+a:hover {
+    color: green;
+}
+
+a:link {
+    text-decoration: none;
+}
