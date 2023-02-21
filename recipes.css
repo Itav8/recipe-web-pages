@@ -27,12 +27,17 @@ main > h2 {
     text-align: center;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 footer {
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 0px;
     padding-right: 0px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     text-align: center;
     width: 100%;
@@ -41,12 +46,14 @@ footer {
 
 img {
     height: 200px;
+    width: 155px;
 }
 
 nav {
     color: black;
     border-bottom: 1px;
     padding: 16px;
+    background-color: azure;
 }
 
 a:hover {
@@ -55,4 +62,9 @@ a:hover {
 
 a:link {
     text-decoration: none;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(211,211,211);
 }
