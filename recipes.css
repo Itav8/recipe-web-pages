@@ -5,6 +5,7 @@ body {
     font-family: 'Merriweather', serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    background-color: peachpuff;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     width: 100%;
     padding-top: 24px;
     padding-bottom: 24px;
-    background-color: aliceblue;
+    background-color: green;
 }
 
 main {
@@ -42,19 +43,20 @@ footer {
     bottom: 0;
     text-align: center;
     width: 100%;
-    background-color: aliceblue;
+    background-color: green;
 }
 
 img {
     height: 200px;
     width: 155px;
+    border-radius: 15%;
 }
 
 nav {
     color: black;
     border-bottom: 1px;
     padding: 16px;
-    background-color: azure;
+    background-color: lightgreen;
 }
 
 a:hover {
@@ -73,3 +75,9 @@ tr:nth-child(even) {
 .rating-card {
     font-weight: bold;
 }
+
+table {
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
